@@ -38,7 +38,8 @@
             <img src="logo.png" alt="RD Impressões Logo" class="hero-logo">
             <span class="hero-tag">Impressão Digital & Design</span>
             <h1>Transformamos Ideias em <span class="highlight">Soluções Visuais</span></h1>
-            <p>Especialistas em comunicação visual, plotagem e materiais gráficos de alta qualidade para fortalecer sua
+            <p>Com <strong>mais de 9 anos de mercado</strong>, somos especialistas em comunicação visual, plotagem e
+                materiais gráficos de alta qualidade para fortalecer sua
                 marca.</p>
             <div class="hero-btns">
                 <a href="https://wa.me/555421412275" target="_blank" class="btn btn-primary"><i
@@ -130,7 +131,8 @@
                 <div class="history-text">
                     <h3>História da Empresa</h3>
                     <p>A RD Impressão e Design é especializada em adesivos, lonas, banners, impressão digital e plotagem
-                        profissional, atuando na personalização de veículos, móveis, equipamentos e diversas
+                        profissional. <strong>Atuamos no mercado há mais de 9 anos</strong>, trazendo experiência e
+                        qualidade na personalização de veículos, móveis, equipamentos e diversas
                         superfícies.</p>
                     <p>Transformamos ideias em soluções visuais de qualidade, ajudando empresas e clientes individuais a
                         se destacarem com materiais duráveis, bem produzidos e com acabamento impecável.</p>
@@ -221,13 +223,76 @@
             </div>
 
             <div class="video-container" style="display: flex; justify-content: center; margin-top: 50px;">
-                <video autoplay loop muted playsinline style="max-width: 350px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                <video autoplay loop muted playsinline
+                    style="max-width: 350px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
                     <source src="video.mp4" type="video/mp4">
                     Seu navegador não suporta a reprodução de vídeos.
                 </video>
             </div>
         </div>
     </section>
+    <!-- Portfolio Section (Dynamic Carousels) -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfólio por Categoria</h2>
+                <p>Explore nossos projetos recentes organizados por tipo de serviço</p>
+            </div>
+            <div id="dynamic-portfolio-container">
+                <!-- Carousels will be injected here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Join Team Section -->
+    <section id="trabalhe-conosco" class="join-team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Faça parte da nossa equipe</h2>
+                <p>Busca novos desafios? Envie seus dados e venha crescer com a gente!</p>
+            </div>
+
+            <div class="form-wrapper">
+                <form id="join-team-form" class="join-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <div class="input-icon">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="input-icon">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefone / WhatsApp</label>
+                        <div class="input-icon">
+                            <i class="fas fa-phone"></i>
+                            <input type="tel" id="phone" name="phone" required placeholder="(DD) 99999-9999">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fab fa-whatsapp"></i> Enviar Candidatura
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Contact Section -->
     <section id="contato" class="contact">
